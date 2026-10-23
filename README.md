@@ -21,9 +21,6 @@ https://github.com/user-attachments/assets/3e750340-706b-4b75-b9c4-287170c92a2b
 8. [Setup Guide](#-setup-guide)
 9. [Challenges and Fixes](#-challenges-and-fixes)
 10. [Results](#-results)
-11. [Limitations and Next Steps](#-limitations-and-next-steps)
-12. [Repo Structure](#-repo-structure)
-13. [Acknowledgements](#-acknowledgements)
 
 ---
 
