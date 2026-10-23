@@ -6,8 +6,9 @@
 
 ## 🎥 Demo
 
-**[▶ Watch the 1-minute demo](https://github.com/Darshilshah0203/SalesMail-to-Postgres-Pipeline---Workflow-Automation/blob/main/SalesMail-to-Postgres-Pipeline-Workflow-Automation.mp4)**
+[![Watch the demo](Automation.png)](https://github.com/Darshilshah0203/SalesMail-to-Postgres-Pipeline---Workflow-Automation/blob/main/SalesMail-to-Postgres-Pipeline-Workflow-Automation.mp4)
 
+**▶ Click the image to watch the 1-minute demo**
 ---
 
 ## 📑 Table of Contents
