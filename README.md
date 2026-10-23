@@ -6,10 +6,9 @@
 
 ## 🎥 Demo
 
-[![Watch the demo](Automation.png)](https://github.com/Darshilshah0203/SalesMail-to-Postgres-Pipeline---Workflow-Automation/blob/main/SalesMail-to-Postgres-Pipeline-Workflow-Automation.mp4)
 
-**▶ Click the image to watch the 1-minute demo**
----
+https://github.com/user-attachments/assets/3e750340-706b-4b75-b9c4-287170c92a2b
+
 
 ## 📑 Table of Contents
 1. [Problem](#-problem)
