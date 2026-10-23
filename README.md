@@ -64,22 +64,22 @@ Gmail Inbox ──► Gmail Trigger ──► Extract from File (CSV) ──► 
 ### 1. Email arrives with the CSV attached
 An email with the subject **`sales`** and a CSV attachment lands in the inbox.
 
-![Email inbox](docs/images/01-email-inbox.png)
+![Email inbox](C:\Users\lap\Downloads\AI_Automations_Codebasics\project_1)
 
 ### 2. The CSV contents
 The attachment contains **10 new orders** (OrderID **1021 to 1030**).
 
-![CSV attachment](docs/images/02-csv-attachment.png)
+![CSV attachment](C:\Users\lap\Downloads\AI_Automations_Codebasics\project_1)
 
 ### 3. Database before the automation
 The `sales` table holds **20 records** (OrderID 1001 to 1020).
 
-![DB before](docs/images/03-db-before.png)
+![DB before](C:\Users\lap\Downloads\AI_Automations_Codebasics\project_1)
 
 ### 4. The n8n workflow
 Three nodes: **1 email in → 10 rows parsed → 10 rows inserted**.
 
-![n8n workflow](docs/images/04-n8n-workflow.png)
+![n8n workflow](C:\Users\lap\Downloads\AI_Automations_Codebasics\project_1)
 
 ### 5. Database after the automation
 The table now holds **30 records**, with the 10 new orders appended.
