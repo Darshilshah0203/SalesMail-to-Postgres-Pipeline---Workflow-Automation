@@ -19,8 +19,7 @@ https://github.com/user-attachments/assets/3e750340-706b-4b75-b9c4-287170c92a2b
 6. [Workflow Nodes](#-workflow-nodes)
 7. [Database Schema](#-database-schema)
 8. [Setup Guide](#-setup-guide)
-9. [Challenges and Fixes](#-challenges-and-fixes)
-10. [Results](#-results)
+9. [Results](#-results)
 
 ---
 
@@ -91,6 +90,8 @@ The table now holds **30 records**, with the 10 new orders appended.
 | 2 | **Extract from File** | Converts the CSV binary into JSON rows | Operation: **Extract From CSV**, header row enabled, binary property: **`attachment_0`** |
 | 3 | **Insert rows in a table** | Writes rows to Postgres | Credential: **Supabase Postgres**, Schema: **public**, Table: **sales**, columns mapped from the CSV |
 
+
+
 ## 🗄️ Database Schema
 
 ```sql
@@ -103,6 +104,7 @@ CREATE TABLE public.sales (
     "Region"        text,
     "Status"        text
 );
+```
 
 ## 🚀 Setup Guide
 
@@ -112,8 +114,8 @@ CREATE TABLE public.sales (
 - A **[Supabase](https://supabase.com)** project
 
 ### Steps
-1. **Create the table.** Run `sql/01_create_sales_table.sql` in the Supabase SQL Editor.
-2. **Import the workflow.** In n8n, go to *Workflows → Import from file* and select `workflow/SalesMail-to-Postgres-Pipeline.json`.
+1. **Create the table.** Run the SQL from the Database Schema section above in the Supabase SQL Editor.
+2. **Import the workflow.** In n8n, go to *Workflows → Import from file* and select the exported workflow JSON.
 3. **Add credentials.**
    - **Gmail:** connect with OAuth in n8n.
    - **Postgres:** use the Supabase connection details (host, database, user, password, port) from *Project Settings → Database*.
@@ -121,8 +123,12 @@ CREATE TABLE public.sales (
 5. **Test.** Email yourself a CSV with the subject **`sales`**, click **Execute workflow**, and confirm the new rows in Supabase.
 6. **Go live.** Publish the workflow and monitor the first few runs in the **Executions** tab.
 
+
+
 ## 📊 Results
 
 - **10 new orders** appended automatically from a single email
 - Table grew from **20 to 30 records** with **zero manual steps**
 - Setup built end to end in **n8n + Supabase** using only low-code nodes and SQL
+
+NK) · [GitHub](ADD_YOUR_GITHUB_LINK)** using only low-code nodes and SQL
