@@ -6,7 +6,7 @@
 
 ## 🎥 Demo
 
-**[▶ Watch the 1-minute demo](ADD_YOUR_VIDEO_LINK_HERE)**
+**[▶ Watch the 1-minute demo](https://github.com/Darshilshah0203/SalesMail-to-Postgres-Pipeline---Workflow-Automation/blob/main/SalesMail-to-Postgres-Pipeline-Workflow-Automation.mp4)**
 
 ---
 
@@ -84,7 +84,7 @@ Three nodes: **1 email in → 10 rows parsed → 10 rows inserted**.
 ### 5. Database after the automation
 The table now holds **30 records**, with the 10 new orders appended.
 
-![DB after](docs/images/05-db-after.png)
+![DB after](Updated_DB.png)
 
 ## 🔧 Workflow Nodes
 
