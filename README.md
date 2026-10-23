@@ -131,4 +131,3 @@ CREATE TABLE public.sales (
 - Table grew from **20 to 30 records** with **zero manual steps**
 - Setup built end to end in **n8n + Supabase** using only low-code nodes and SQL
 
-NK) · [GitHub](ADD_YOUR_GITHUB_LINK)** using only low-code nodes and SQL
